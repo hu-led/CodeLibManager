@@ -1,0 +1,22 @@
+{
+  "name": "Timer",
+  "version": "1.0",
+  "category": "System",
+  "description": "通用定时器（TIM2/3/4）配置辅助函数。4项测试通过：PSC/ARR寄存器回读、CNT 1MHz计数速率、更新中断标志、1kHz ISR频率",
+  "files": {
+    "source": [
+      "Timer.c"
+    ],
+    "header": [
+      "Timer.h"
+    ]
+  },
+  "dependencies": [],
+  "group": "System",
+  "pins": {},
+  "verified": true,
+  "verified_date": "2026-05-10",
+  "known_issues": [],
+  "source_project": "KEY",
+  "last_updated": "20260510_193622"
+}

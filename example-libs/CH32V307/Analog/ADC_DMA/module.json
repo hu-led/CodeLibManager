@@ -1,0 +1,28 @@
+{
+  "name": "ADC_DMA",
+  "version": "1.0",
+  "category": "Analog",
+  "description": "多通道ADC+DMA连续采样驱动，自动配置GPIO/校准/扫描顺序，循环DMA缓冲。仅支持外部通道CH0~15。",
+  "files": {
+    "source": [
+      "adc_dma.c"
+    ],
+    "header": [
+      "adc_dma.h"
+    ]
+  },
+  "dependencies": [],
+  "group": "Hardware",
+  "pins": {
+    "ADC_CH0~7": "PA0~PA7",
+    "ADC_CH8~9": "PB0~PB1",
+    "ADC_CH10~15": "PC0~PC5"
+  },
+  "verified": true,
+  "verified_date": "2026-05-12",
+  "known_issues": [
+    "CH16(温度)/CH17(Vref) 需 ADC_TempSensorVrefintCmd 切换，与外部通道 DMA 扫描互斥，混合使用需软件切换"
+  ],
+  "source_project": "EXAM/ADC/ADC_DMA",
+  "last_updated": "20260512"
+}

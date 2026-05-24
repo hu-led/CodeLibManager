@@ -1,0 +1,30 @@
+{
+  "name": "Key",
+  "version": "1.0",
+  "category": "Input",
+  "description": "按键驱动（轮询+状态机），20ms消抖，支持单击/双击/长按/重复等7种事件，多端口查表架构。赤菟5向摇杆(PE1/PE2/PD6/PE3/PD13)验证通过。",
+  "files": {
+    "source": [
+      "Key.c"
+    ],
+    "header": [
+      "Key.h"
+    ]
+  },
+  "dependencies": [
+    "Timer"
+  ],
+  "group": "Hardware",
+  "pins": {
+    "PE1": "Key[0] 上",
+    "PE2": "Key[1] 下",
+    "PD6": "Key[2] 左",
+    "PE3": "Key[3] 右",
+    "PD13": "Key[4] 按下"
+  },
+  "verified": true,
+  "verified_date": "2026-05-11",
+  "known_issues": [],
+  "source_project": "STM32F1CodeLib/Input/Key",
+  "last_updated": "20260511"
+}

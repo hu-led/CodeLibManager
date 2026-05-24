@@ -1,0 +1,24 @@
+{
+  "name": "LED",
+  "version": "1.0",
+  "category": "Display",
+  "description": "默认引脚：PC13（板载 LED，低电平有效）",
+  "files": {
+    "source": [
+      "LED.c"
+    ],
+    "header": [
+      "LED.h"
+    ]
+  },
+  "dependencies": [],
+  "group": "Hardware",
+  "pins": {
+    "LED": "PC13"
+  },
+  "verified": true,
+  "verified_date": "2026-05-10",
+  "known_issues": [],
+  "source_project": "AITest",
+  "last_updated": "20260510_192704"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "USART",
+  "version": "1.0",
+  "category": "Communication",
+  "description": "USART串口驱动，自动根据USARTx查表配置TX/RX引脚，支持发送(Byte/Array/String/Number/Printf)、中断RX(\r\n分包)。printf重定向由debug.h的_write提供。",
+  "files": {
+    "source": [
+      "usart.c"
+    ],
+    "header": [
+      "usart.h"
+    ]
+  },
+  "dependencies": [],
+  "group": "Hardware",
+  "pins": {
+    "USART1": "TX=PA9 RX=PA10",
+    "USART2": "TX=PA2 RX=PA3",
+    "USART3": "TX=PB10 RX=PB11"
+  },
+  "verified": true,
+  "verified_date": "2026-05-11",
+  "known_issues": [
+    "RX中断共享变量需volatile，否则-Os优化导致主循环不可见"
+  ],
+  "source_project": "STM32F1CodeLib/Communication/Serial + firmware/USART",
+  "last_updated": "20260511"
+}

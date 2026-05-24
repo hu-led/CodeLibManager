@@ -1,0 +1,24 @@
+{
+  "name": "LED",
+  "version": "1.0",
+  "category": "Display",
+  "description": "两颗板载LED，低电平有效",
+  "files": {
+    "source": [
+      "LED.c"
+    ],
+    "header": [
+      "LED.h"
+    ]
+  },
+  "dependencies": [],
+  "group": "Hardware",
+  "pins": {
+    "PIN": "PE11(LED1,默认)；PIN=PE12(LED2)"
+  },
+  "verified": true,
+  "verified_date": "2026-05-10",
+  "known_issues": [],
+  "source_project": "",
+  "last_updated": "20260510_202421"
+}

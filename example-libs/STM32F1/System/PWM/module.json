@@ -1,0 +1,24 @@
+{
+  "name": "PWM",
+  "version": "1.0",
+  "category": "System",
+  "description": "使用 TIMx 的 PWM 输出。依赖于Timer模块",
+  "files": {
+    "source": [
+      "PWM.c"
+    ],
+    "header": [
+      "PWM.h"
+    ]
+  },
+  "dependencies": [
+    "Timer"
+  ],
+  "group": "System",
+  "pins": {},
+  "verified": true,
+  "verified_date": "2026-05-10",
+  "known_issues": [],
+  "source_project": "TIM_PWM_OUT",
+  "last_updated": "20260510_193537"
+}

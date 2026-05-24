@@ -1,0 +1,38 @@
+[
+  {
+    "name": "ADC_DMA",
+    "category": "Analog",
+    "path": "Analog/ADC_DMA",
+    "description": "多通道ADC+DMA连续采样驱动，自动配置GPIO/校准/扫描顺序，循环DMA缓冲。仅支持外部通道CH0~15。"
+  },
+  {
+    "name": "IIC_Hardware",
+    "category": "Communication",
+    "path": "Communication/IIC_Hardware",
+    "description": "CH32V307硬件I2C (I2C2) 驱动"
+  },
+  {
+    "name": "USART",
+    "category": "Communication",
+    "path": "Communication/USART",
+    "description": "USART串口驱动，自动根据USARTx查表配置TX/RX引脚，支持发送(Byte/Array/String/Number/Printf)、中断RX(\r\n分包)。printf重定向由debug.h的_write提供。"
+  },
+  {
+    "name": "LED",
+    "category": "Display",
+    "path": "Display/LED",
+    "description": "两颗板载LED，低电平有效"
+  },
+  {
+    "name": "Key",
+    "category": "Input",
+    "path": "Input/Key",
+    "description": "按键驱动（轮询+状态机），20ms消抖，支持单击/双击/长按/重复等7种事件，多端口查表架构。赤菟5向摇杆(PE1/PE2/PD6/PE3/PD13)验证通过。"
+  },
+  {
+    "name": "Timer",
+    "category": "System",
+    "path": "System/Timer",
+    "description": "TIM2 1ms定时节拍发生器，72MHz时钟下PSC=71/ARR=999，更新中断1kHz。需在ISR中加__attribute__((interrupt(\"WCH-Interrupt-fast\")))。"
+  }
+]

@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# PyInstaller
+build/
+dist/
+*.spec.bak
+
+# IDE
+.vscode/
+.idea/
+
+# Claude
+.claude/
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Backup files
+*.bak
+*.bak.*
+
+# Library internal
+_snapshots/
+_trash/

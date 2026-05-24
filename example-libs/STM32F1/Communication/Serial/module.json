@@ -1,0 +1,25 @@
+{
+  "name": "Serial",
+  "version": "1.0",
+  "category": "Communication",
+  "description": "USART1 串口（printf 重定向）,默认 PA9/PA10",
+  "files": {
+    "source": [
+      "Serial.c"
+    ],
+    "header": [
+      "Serial.h"
+    ]
+  },
+  "dependencies": [],
+  "group": "Hardware",
+  "pins": {
+    "TX": "PA9",
+    "RX": "PA10"
+  },
+  "verified": true,
+  "verified_date": "2026-05-09",
+  "known_issues": [],
+  "source_project": "蓝牙HC-05",
+  "last_updated": "20260509_231127"
+}

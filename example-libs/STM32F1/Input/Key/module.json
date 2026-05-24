@@ -1,0 +1,24 @@
+{
+  "name": "Key",
+  "version": "1.0",
+  "category": "Input",
+  "description": "按键消抖与扫描驱动程序",
+  "files": {
+    "source": [
+      "Key.c"
+    ],
+    "header": [
+      "Key.h"
+    ]
+  },
+  "dependencies": [
+    "Timer"
+  ],
+  "group": "Hardware",
+  "pins": {},
+  "verified": true,
+  "verified_date": "2026-05-10",
+  "known_issues": [],
+  "source_project": "KEY",
+  "last_updated": "20260510_193005"
+}

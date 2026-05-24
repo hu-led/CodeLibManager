@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Serial",
+    "category": "Communication",
+    "path": "Communication/Serial",
+    "description": "USART1 串口（printf 重定向）,默认 PA9/PA10"
+  },
+  {
+    "name": "LED",
+    "category": "Display",
+    "path": "Display/LED",
+    "description": "默认引脚：PC13（板载 LED，低电平有效）"
+  },
+  {
+    "name": "Key",
+    "category": "Input",
+    "path": "Input/Key",
+    "description": "按键消抖与扫描驱动程序"
+  },
+  {
+    "name": "Delay",
+    "category": "System",
+    "path": "System/Delay",
+    "description": "SysTick延时全接口(Delay_us/ms/s)硬件验证通过，LED闪烁时序正常，2026-05-01"
+  },
+  {
+    "name": "PWM",
+    "category": "System",
+    "path": "System/PWM",
+    "description": "使用 TIMx 的 PWM 输出。依赖于Timer模块"
+  },
+  {
+    "name": "Timer",
+    "category": "System",
+    "path": "System/Timer",
+    "description": "通用定时器（TIM2/3/4）配置辅助函数。4项测试通过：PSC/ARR寄存器回读、CNT 1MHz计数速率、更新中断标志、1kHz ISR频率"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "name": "IIC_Hardware",
+  "version": "1.0",
+  "category": "Communication",
+  "description": "CH32V307硬件I2C (I2C2) 驱动",
+  "files": {
+    "source": [
+      "IIC.c"
+    ],
+    "header": [
+      "IIC.h"
+    ]
+  },
+  "dependencies": [],
+  "group": "Hardware",
+  "pins": {},
+  "verified": true,
+  "verified_date": "2026-05-10",
+  "known_issues": [],
+  "source_project": "",
+  "last_updated": "20260510_211104"
+}

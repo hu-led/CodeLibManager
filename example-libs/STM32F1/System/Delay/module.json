@@ -1,0 +1,22 @@
+{
+  "name": "Delay",
+  "version": "1.0",
+  "category": "System",
+  "description": "SysTick延时全接口(Delay_us/ms/s)硬件验证通过，LED闪烁时序正常，2026-05-01",
+  "files": {
+    "source": [
+      "Delay.c"
+    ],
+    "header": [
+      "Delay.h"
+    ]
+  },
+  "dependencies": [],
+  "group": "System",
+  "pins": {},
+  "verified": true,
+  "verified_date": "2026-05-05",
+  "known_issues": [],
+  "source_project": "AITest",
+  "last_updated": "20260505_225318"
+}

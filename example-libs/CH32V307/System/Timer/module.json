@@ -1,0 +1,22 @@
+{
+  "name": "Timer",
+  "version": "1.0",
+  "category": "System",
+  "description": "TIM2 1ms定时节拍发生器，72MHz时钟下PSC=71/ARR=999，更新中断1kHz。需在ISR中加__attribute__((interrupt(\"WCH-Interrupt-fast\")))。",
+  "files": {
+    "source": [
+      "Timer.c"
+    ],
+    "header": [
+      "Timer.h"
+    ]
+  },
+  "dependencies": [],
+  "group": "System",
+  "pins": {},
+  "verified": true,
+  "verified_date": "2026-05-12",
+  "known_issues": [],
+  "source_project": "",
+  "last_updated": "20260510_203708"
+}

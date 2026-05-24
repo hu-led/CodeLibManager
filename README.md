@@ -14,6 +14,7 @@
 - **多平台适配**：Keil MDK-ARM（.uvprojx）和 MounRiver Studio 2（.cproject）自动检测与适配，可通过适配器接口自由扩展新平台
 - **双接口**：GUI（PySide6）供用户操作，CLI（JSON 输出）供 AI Agent 调用
 - **库管理**：支持多个代码库并存、切换，可对库做重命名、更新路径、管理分类/分组等操作
+![主窗口展示](images/代码管理器窗口.png)
 
 ## 运行环境
 
